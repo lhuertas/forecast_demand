@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21e057fb-6e4b-4b4e-8718-7d28615993fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/forecast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Introduction/Python Data Science.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Introduction/Syllabus.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Introduction/What is Data Science.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Introduction/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/1. Crash course on Python-NS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/.ipynb_checkpoints/Introducció a la programació-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/.ipynb_checkpoints/Jupyter_notebooks_basics-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/Advertising.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/Introducció a la programació.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/Introducció a la programació.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/Introducció a la programació.slides.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/Jupyter_notebooks_basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/SeaIce.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/input-output.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/montypython.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/pyCharm.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/python.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/sketchProgramacio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/sublime.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Python/files/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/big_picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/example2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/example2f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/example3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/hidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/hiddenscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/hiddenstylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/jquery_events_example.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/jquery_events_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/jquery_events_example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/margin_border_padding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/mario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/marioscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/mariostylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/mongo.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/mystylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/rubberduck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/files/ub_location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_DataGathering/scraping_student_py36.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/.ipynb_checkpoints/DataScience - SoftwareCarpentry-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/.ipynb_checkpoints/GIT-Notebook-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/.ipynb_checkpoints/sieveExample-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/GIT-Notebook.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/GitCommands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/GitRebase.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/GitRebase.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/keepcalm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/pushforce.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/GIT/pushforce.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/SoftwareCarpentry/DataScience - SoftwareCarpentry.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/SoftwareCarpentry/sieveExample.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/SoftwareCarpentry/sieveExampleArgParse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/SoftwareCarpentry/sieveExampleArgs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_SoftwareCarpentry/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/.ipynb_checkpoints/DataScience-Numpy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/DataScience-Numpy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/genes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/modules/ipythonblocks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/random-matrix.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/random-matrix.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Numpy/raw.githubusercontent.com/datasets/finance-vix/master/data/vix-daily.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/DataScience-Pandas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/educ_figdp/educ_figdp_1_Data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/educ_figdp/educ_figdp_Label.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/educ_figdp/tsdsc510.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/ma-ba.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/ml-1m/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/ml-1m/movies.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/ml-1m/ratings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScience-Pandas/ml-1m/users.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScienceToolbox_Solutions/DataScience-NumpySolution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/DataScienceToolbox_Solutions/DataScience-PandasSolution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_DataScienceToolbox/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/Automat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/DataCleaning-Part1-Regular-expressions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/DataCleaning-Part2-Text-Analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/RE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/Tweetpolitics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/VisualWords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/regular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_TextualDataAnalysis/summary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/6. Computational Statistics for Data Analysis IIpart.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/6. Computational Statistics for Data Analysis Ipart.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/6. Computational Statistics for Data Analysis with solutions IIpart.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/Computational Statistics I part.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/Computational Statistics II part.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/files/2002FemPreg.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/files/run10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/Anscombe's_quartet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/PDF CDF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/eggs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/interarrivaltimes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/mean_median.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/pearson.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/images/taft_puck_eggdig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/styles/bmh_matplotlibrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/styles/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_ComputationalStatistics/styles/matplotlibrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/7. Statistical Inference.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/Statistical Estimation Intro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/files/2002FemPreg.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/files/ACCIDENTS_GU_BCN_2010.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/files/ACCIDENTS_GU_BCN_2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_StatisticalEstimation/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Regression/Regression_Analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Regression/Regression_Analysis_SolutionsExercises.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Regression/files.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Regression/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-00.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Doc-06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-01a.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-01b.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-02.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-02b.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-03.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-04a.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-04b.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-05.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-06.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Prog-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/Statistics with R-Day1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/bank.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-1/gapminder.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Doc-05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Doc-06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/INSTALL.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-07.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-08.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-09-allobjects.Rdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-09.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-09.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-10.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-10.nb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Prog-11.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/R4DSUB.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/Statistics with R-Day2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/bank.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/functionsi_nR.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/DAY-2/projR4DSUB.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/data-import.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/data-transformation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/data-visualization-2.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/package-development.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/purrr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/rmarkdown-2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/rstudio-ide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/shiny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/sparklyr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/R-cheatsheets/strings.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/Statistics with R-Day1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/Statistics with R-Day2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/Statistics with R-Day2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_StatisticsR/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_GraphAnalysis/Facebook_Exercise_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_GraphAnalysis/Network_Analysis.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_GraphAnalysis/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/10. Bayesian Data Analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/files/2002FemPreg.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/files/txtdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/images/lets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/images/p-graphic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_BayesianStatistics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/Machine Learning I py36-student.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/Machine Learning IIpy36.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/churn.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/churn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/churn_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/files/Boydstun_NYT_FrontPage_Dataset_1996-2006_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/files/The_New_York_Times_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/files/churn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/toy_tree.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/toy_tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_SupervisedLearning/tree.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_CasualDataScience/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/Machine Learning - Unsupervised Learning 1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/Machine Learning - Unsupervised Learning 2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/files/education_GDP/educ_figdp_1_Data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/files/education_GDP/educ_figdp_Label.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/1gen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/clustering of genes.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/pca1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/plot_digits_linkage_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/plot_digits_linkage_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/plot_digits_linkage_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/plot_ward_structured_vs_unstructured_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/images/plot_ward_structured_vs_unstructured_0021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_UnsupervisedLearning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/.ipynb_checkpoints/RecSys_A_Intro-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/.ipynb_checkpoints/RecSys_B_NoPersonalized-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/.ipynb_checkpoints/RecSys_C_CF-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/.ipynb_checkpoints/RecSys_D-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/RecSys_A_Intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/RecSys_B_NoPersonalized.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/RecSys_C_CF.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/RecSys_D.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/data/groceries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/NetFlixVsSpotify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/ab-testing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/amoutdata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/apriori.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/apriori2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/colResSys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/hackers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/neighbourhood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/np1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/np2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/np3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/np4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/recsys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/slim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/svd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/svd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/svd4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/topAmazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/transparency1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/transparency2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/transparency3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/images/zagat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/allbut.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/mku.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.genre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.item" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.occupation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u1.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u2.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u3.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u4.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u5.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/u5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/ua.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/ua.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/ub.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-100k/ub.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-1m/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-1m/movies.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-1m/ratings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/ml-1m/users.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_RecommenderSystems/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_MultiCoreComputing/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day1_WordCount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day1_WordCount_solved .ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_1_MapReduce_intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_1_Spark Intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_2_MLLib.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_2_ML_pipeline.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_2_ML_pipeline_solved.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_3_Clustering.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_3_Clustering_solved.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Day_3_k-means.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/aIGRQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/hadoop_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/hadoop_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/hadoop_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/hadoop_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/Figures/hadoop_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/Algorithm_kmeans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/Linear_regression_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/Linear_regression_1.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/RDD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/RDD.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/RDD_actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/RDD_actions.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/actions.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/data_sharing_mapreduce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/data_sharing_spark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/driver_workers_spark_architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/driver_workers_spark_architecture.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/generalization_problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/generalization_problem.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/k-means-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/key-value_transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/key-value_transformations.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/images/transformations.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_BigDataAnalytics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/VIZ-ED6-BOKEH.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/VIZ-ED6-Some-Samples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/VIZ-ED6-iPython.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/data/2015_weather.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/dataviz.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/json/graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/json/paisos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/json/world.topo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/www/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/www/js/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/www/nations.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_DataVisualization/www/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19_ComplexNetworks/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_AlgorithmicDiscrimination/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21_DeepLearning/DeepLearning Postgrau.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21_DeepLearning/images/conotebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21_DeepLearning/images/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21_DeepLearning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../22_DataCrowdsourcing/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23_Cloud/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CapstoneProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis_notebook/Tip_amount_Taxi_Data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis_notebook/Tip_amount_Taxi_Data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/Boydstun_NYT_FrontPage_Dataset_1996-2006_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/The_New_York_Times_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/churn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/collab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/llibre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/Exploratory_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/data/GoogleNews-vectors-negative300.bin.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/data/candidateTestSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/data/trainSet.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/notebooks/Exploratory_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/notebooks/test_scripts.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/predictions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/models/predictions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/models/text_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/models/train_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search_term_categorization/src/models/trainded_model.sav" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/forecast.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1135">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="135" column="11" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rolling</find>
+      <find>categ</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/transform.py" />
+        <option value="$PROJECT_DIR$/src/model.py" />
+        <option value="$PROJECT_DIR$/src/forecast.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="33" />
+    <option name="y" value="24" />
+    <option name="width" value="1281" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="forecast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forecast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forecast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forecast" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forecast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forecast" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="forecast" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="forecast" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/forecast.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.forecast" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21e057fb-6e4b-4b4e-8718-7d28615993fa" name="Default Changelist" comment="" />
+      <created>1616168253127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616168253127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.50364965" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42773724" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.36934307" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50364965" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.47007298" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.36934307" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/forecast.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/model.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/model.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/transform.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/forecast.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/forecast.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>df['y_pred'] = loaded_model.predict(df)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['y_pred'] = loaded_model.predict(df)
+df['y_pred'] = df.y_pred.apply(lambda x: max(0,x))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['y_pred'] = loaded_model.predict(df)
+        df['y_pred'] = df.y_pred.apply(lambda x: max(0,x))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>def reindex_by_date(df, max_date):
+            dates = pd.date_range(df.index.min(), max_date, freq='W')
+            return df.reindex(dates).ffill()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>def reindex_by_date(df, max_date):
+            dates = pd.date_range(df.index.min(), max_date)
+            return df.reindex(dates).ffill()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df2=df.groupby('Product_Code'). \
+                     apply(lambda x: x.reindex(pd.date_range(min(x.date),max(x.date)), fill_value=0))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.groupby('Product_Code'). \
+                     apply(lambda x: x.reindex(pd.date_range(min(x.date),max(x.date))))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.set_index(pd.DatetimeIndex(df.date), inplace=True).groupby('Product_Code'). \
+                     apply(lambda x: x.reindex(pd.date_range(min(x.date),max(x.date))))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.set_index(pd.DatetimeIndex(df.date, inplace=True), inplace=True).groupby('Product_Code'). \
+                     apply(lambda x: x.reindex(pd.date_range(min(x.date),max(x.date))))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>df.to_csv('prediction_df.csv', index=True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['date'] = date</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.to_csv(&quot;data.csv&quot;, index=False)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['product'] = df.Product_Code.apply(lambda x: int(x.split(&quot;_&quot;)[1]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df_future.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['y_pred'] = loaded_model.predict(df)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['y_pred'] = df.y_pred.apply(lambda x: max(0,x))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loaded_model = pickle.load(open(model, 'rb'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/groupby/groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3176" selection-start-line="3176" selection-end-line="3176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/dateutil/parser/_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="647" selection-start-line="647" selection-end-line="647" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="3558" selection-start-line="3558" selection-end-line="3558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexes/multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="789" selection-start-line="789" selection-end-line="789" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/metrics/_scorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexes/accessors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/linear_model/_stochastic_gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="640" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4371" selection-start-line="4371" selection-end-line="4371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/metrics/_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/core/_asarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="135" column="11" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forecast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1135">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
