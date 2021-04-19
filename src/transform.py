@@ -165,6 +165,22 @@ class Transform:
 
         return df
 
+    def get_cross_validation_indices(self):
+        folds=[]
+        val_end = pd.to_datetime(self.__X_train['date'].iloc[-1])
+        print('Validation indices..')
+        for k in range(self.__k_folds_val):
+            val_ini = (val_end - pd.Timedelta(days=self.__validation_size-1))#f0r daily
+            train_end = (val_ini - pd.Timedelta(days=self.__lag_size+1))
+
+            train_idx = self.__X_train[self.__X_train['date']<=train_end].index
+            val_idx = self.__X_train[(self.__X_train['date']>=val_ini)&(self.__X_train['date']<=val_end)].index
+            folds.append((np.array(train_idx), np.append(val_idx)))
+
+            print('Fold',k,val_ini,'-',val_end)
+            val_end = (val_end- pd.Timedelta(days=self.__backtest_offset))
+
+        return folds
 
 
 

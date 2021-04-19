@@ -101,7 +101,7 @@ class Model:
                 best_model['parameters'] = parameters
                 best_score = -reg_search.best_score_
 
-        print(best_model)
+        print(f'Model competition won by {best_model["model_name"]} with score {best_score:.2f}.')
 
         return search_results, best_model
 
@@ -137,4 +137,26 @@ class Model:
 
         return df
 
+    def get_validation_metrics(self, search_results):
+        scores={}
+        mean_scores={}
+        mean_times={}
+        best_params={}
+        for model_name, reg_search in search_results.items():
+            cv_scores=[]
+            idx=reg_search.best_index_
+            for i in range(self.__k_fold_val): #k_fold_val = 10
+                sc=reg_search.cv_results_['split'+str(i)+'_test_score'][idx]
+                cv_scores.append(sc)
+
+            scores[model_name] = list(map(abs,cv_scores))
+            mean_scores[model_name] = -reg_search.best_score_
+            mean_times[model_name] = round(float(reg_search.cv_results_['mean_fit_time'][idx]),3)
+            best_params[model_name] = reg_search.best_params_
+
+        mean_scores_list = sorted(mean_scores.items(), key=operator.itemgetter(1))
+        mean_times = sorted(mean_times.items(), key=lambda x: mean_scores[x[0]])
+        mean_scores = mean_scores_list
+
+        return scores, mean_scores, mean_times, best_params
 

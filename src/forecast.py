@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 from transform import Transform
 from model import Model
+from os import makedirs
 
 class Forecast:
 
@@ -106,6 +107,10 @@ class Forecast:
 
         return df_transformed
 
+    def create_output_directories(self):
+        makedirs(self.__directory)
+        makedirs(f'{self.__directory}/plots/')
+        makedirs(f'{self.__directory}/models/')
 
 if __name__ == '__main__':
     os.chdir('../')
