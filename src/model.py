@@ -25,12 +25,22 @@ class Model:
         self.__folds= []
 
     def convert_categorical(self,df):
+        """
+        Encode categorical variables
+
+        :param df: Dataframe
+        :return: Dataframe with encoding
+        """
         df = pd.get_dummies(df, columns=['Product_Category'], drop_first=True)
         #df = pd.get_dummies(df, columns=['Warehouse'], drop_first=True)
 
         return df
 
     def split_train_test(self, df):
+        """
+        Train and test splitting
+        :param df: Training dataframe
+        """
         last_date = df.date.max()
         stop_date = last_date - pd.Timedelta(days=365)
         df['product'] = df.Product_Code.apply(lambda x: int(x.split("_")[1]))
@@ -54,6 +64,10 @@ class Model:
 
 
     def get_regressors(self):
+        """
+        Definition of model and parameters for training
+        :return: dict models and dict with parameters
+        """
         models = {
             'naive': GaussianNB(),
             'svm': SVR(cache_size=700),
@@ -72,11 +86,20 @@ class Model:
         return models, parameters
 
     def baseline_error(self, df):
+        """
+        MSE calculated with respect to demand of previous week
+        :param df: dataframe
+        :return: Print baseline error
+        """
         df['error'] = mean_squared_log_error(df['Order_Demand'], df['y_lag_pre_oneweek'])
         print(f'Baseline error {statistics.mean(df.error)}')
         df.drop(columns=['error'], axis=1, inplace=True)
 
     def modeling(self):
+        """
+        Model competition
+        :return: Randomized search results (dict) and best model (dict)
+        """
         self.__models, self.__parameters = self.get_regressors()
         scaler = ('scaler', StandardScaler())
         scorer ='neg_mean_squared_log_error'
@@ -126,6 +149,12 @@ class Model:
         return results
 
     def make_prediction(self, df, model):
+        """
+        Make predictions with trained model
+        :param df: Dataframe
+        :param model: Trained model used for predictions
+        :return: Dataframe
+        """
         df['product'] = df.Product_Code.apply(lambda x: int(x.split("_")[1]))
         date = df.date
         df.drop(['Product_Code','date','Order_Demand'],axis=1, inplace=True)
@@ -138,6 +167,11 @@ class Model:
         return df
 
     def get_validation_metrics(self, search_results):
+        """
+        Evaluation metrics
+        :param search_results: Dict with results of randomized search
+        :return: dict with metrics
+        """
         scores={}
         mean_scores={}
         mean_times={}

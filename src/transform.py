@@ -10,6 +10,11 @@ class Transform:
         self.__future_dates = pd.DataFrame()
 
     def transform_data(self, df):
+        """
+        Preprocessing of data
+        :param df: Dataframe
+        :return: Dataframe with preprocessed data and dataframe with lags
+        """
         transformed_df = self.join_duplicated_rows(df)
         transformed_df = self.derivate_dates(transformed_df, 'Date')
         self.get_statistics(transformed_df)
@@ -30,6 +35,11 @@ class Transform:
         return df, df_future
 
     def join_duplicated_rows(self, df):
+        """
+
+        :param df: Dataframe
+        :return: Dataframe
+        """
         col_names = list(df.columns)
         col_names.remove('Order_Demand')
 
@@ -38,6 +48,12 @@ class Transform:
         return df_no_duplicates
 
     def derivate_dates(self, df, col):
+        """
+        Date disaggregation
+        :param df: Dataframe
+        :param col: column name where date is located
+        :return: Dataframe
+        """
         df['year'] = df[col].dt.year.astype(int)
         df['month'] = df[col].dt.month.astype(int)
         df['weekday'] = df[col].dt.weekday.astype(int)
@@ -46,6 +62,13 @@ class Transform:
         return df
 
     def get_weights_warehouse_disaggregation(self, df, cols_group, col_agg):
+        """
+        Weight calculation of warehouse importance
+        :param df: Dataframe
+        :param cols_group: warehouse column
+        :param col_agg: name for aggregation
+        :return: Dataframe
+        """
         min_date = '2016-01-01'
         max_date = '2017-01-01'
 
@@ -166,6 +189,10 @@ class Transform:
         return df
 
     def get_cross_validation_indices(self):
+        """
+        Cross validation
+        :return: list
+        """
         folds=[]
         val_end = pd.to_datetime(self.__X_train['date'].iloc[-1])
         print('Validation indices..')

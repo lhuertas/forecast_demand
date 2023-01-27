@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from transform import Transform
 from model import Model
 from os import makedirs
+import config as cfg
 
 class Forecast:
 
@@ -15,15 +16,22 @@ class Forecast:
         self.__products_demand = None
         self.__transform = Transform()
         self.__model = Model()
+        self.__directory = cfg.OUTPUT_DIR
+        self.__data_file = cfg.DATA_FILE
 
     def run(self):
+        """
+        Main function to execute forecast: read data, preprocess and modelling
+
+        :return: model saved in the output dir and predictions and dataframe with predictions
+        """
         print('Running forecast')
-        self.read_data()
-        transformed_data, df_future = self.transform_data()
-        df_future = self.add_holidays(df_future)
+        self._read_data()
+        transformed_data, df_future = self._transform_data()
+        df_future = self._add_holidays(df_future)
         df_future = self.__model.convert_categorical(df_future)
 
-        df = self.add_holidays(transformed_data)
+        df = self._add_holidays(transformed_data)
         df = self.__model.convert_categorical(df)
         #df.to_csv("final_df.csv", index=False)
         self.__model.baseline_error(df)
@@ -35,27 +43,40 @@ class Forecast:
         prediction = self.__model.make_prediction(df_future,'model.sav')
 
         print('Done')
+        return prediction
 
-    def read_data(self):
+    def _read_data(self):
         print('Loading input data...')
-        self.__products_demand = self.load_main_data()
+        self.__products_demand = self._load_main_data()
 
-    def load_main_data(self):
+    def _load_main_data(self):
+        """
+        Load dataset
+
+        :return: Dataframe
+        """
 
         dtypes = {
             "Product_Code": "str",
-            "Warehous": "str",
+            "Warehouse": "str",
             "Product_Category": "str",
             "Order_Demand": "str"
         }
-        df = pd.read_csv("data/Historical Product Demand.csv", dtype=dtypes, parse_dates=["Date"])
+        df = pd.read_csv(self.__data_file, dtype=dtypes, parse_dates=["Date"])
         # some of the values are between parenthesis
         df['Order_Demand'] = df.Order_Demand.apply(lambda x: re.sub('[()]', '', x))
         df['Order_Demand'] = df['Order_Demand'].astype('int64')
 
         return df
 
-    def read_holidays(self, ini_year, fin_year):
+    def _read_holidays(self, ini_year, fin_year):
+        """
+        Look for holidays in the specific url, in this case just for Norway
+
+        :param ini_year: Initial date range (datetime)
+        :param fin_year: End of the date range (datetime)
+        :return: Dataframe
+        """
         country = "norway"
         url = "http://www.timeanddate.com/holidays/"
         holidays = pd.DataFrame(columns=["name","type","details","date"])
@@ -87,10 +108,14 @@ class Forecast:
         holidays = holidays[holidays.type.str.contains('|'.join(["National holiday", "Bank Holiday"]))]
         return holidays
 
-    def add_holidays(self, df):
+    def _add_holidays(self, df):
+        """"Add holidays as new features in the data
+        :return: Dataframe
+        """
+
         ini_year = min(df.date.dt.year)
         fin_year = max(df.date.dt.year)
-        holidays = self.read_holidays(ini_year, fin_year)
+        holidays = self._read_holidays(ini_year, fin_year)
         holidays['date'] = pd.to_datetime(holidays.date)
         holidays['weekofyear'] = holidays.date.dt.weekofyear
         holidays['year'] = holidays.date.dt.year
@@ -102,12 +127,18 @@ class Forecast:
         return df
 
 
-    def transform_data(self):
+    def _transform_data(self):
+        """Make the preprocessing/feature engineer of the data calling an external class
+        :return: Dataframe
+        """
+
         df_transformed = self.__transform.transform_data(self.__products_demand)
 
         return df_transformed
 
     def create_output_directories(self):
+        """Create folders where the model and other outputs will be saved"""
+
         makedirs(self.__directory)
         makedirs(f'{self.__directory}/plots/')
         makedirs(f'{self.__directory}/models/')
